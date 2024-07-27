@@ -6,7 +6,7 @@ on:
       -stage
     paths:
       -terraform/**
-  push_request:
+  pull_request:
     branches:
       -main
     paths:
